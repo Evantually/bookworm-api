@@ -1,0 +1,31 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\taylor\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\taylor\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\taylor\bin;C:\Program Files\Dart\dart-sdk\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Skype\Phone;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files\Dart\dart-sdk\bin\pub;C:\Program Files\Dart\dart-sdk\bin;C:\Users\taylor\Anaconda3;C:\Users\taylor\Anaconda3\Library\mingw-w64\bin;C:\Users\taylor\Anaconda3\Library\usr\bin;C:\Users\taylor\Anaconda3\Library\bin;C:\Users\taylor\Anaconda3\Scripts;C:\Users\taylor\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\taylor\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe;C:\Users\taylor\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\taylor\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:94294:59)
+      at Object.<anonymous> (C:\Users\taylor\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:87100:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\taylor\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\taylor\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
