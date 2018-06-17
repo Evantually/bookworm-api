@@ -18,7 +18,7 @@ export function sendConfirmationEmail(user) {
 	const email = {
 		from,
 		to: user.email,
-		subject: 'Welcome to bookworm',
+		subject: 'Welcome to Bookworm',
 		text: `
 		Welcome to Bookworm. Please, confirm your email. 
 		

@@ -26,11 +26,11 @@ schema.methods.setConfirmationToken = function setConfirmationToken() {
 };
 
 schema.methods.generateConfirmationUrl = function generateConfirmationUrl() {
-	return `${process.env.HOST}/confirmation/${this.confirmationToken}`
+	return `${process.env.HOST}/confirmation/${this.confirmationToken}`;
 }
 
 schema.methods.generateResetPasswordLink = function generateResetPasswordLink() {
-	return `${process.env.HOST}/reset_password/${this.generateResetPasswordToken()}`
+	return `${process.env.HOST}/reset_password/${this.generateResetPasswordToken()}`;
 }
 
 schema.methods.generateJWT = function generateJWT() {
@@ -58,7 +58,7 @@ schema.methods.toAuthJSON = function toAuthJSON() {
 		email: this.email,
 		confirmed: this.confirmed,
 		token: this.generateJWT()
-	}
+	};
 };
 
 schema.plugin(uniqueValidator, { message: 'This email is already in use.' });

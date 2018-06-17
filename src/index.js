@@ -12,7 +12,7 @@ import books from './routes/books';
 dotenv.config();
 const app = express();
 app.use(bodyParser.json());
-mongoose.Promise = Promise
+mongoose.Promise = Promise;
 mongoose.connect(process.env.MONGODB_URL);
 
 app.use('/api/auth', auth);
