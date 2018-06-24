@@ -16,4 +16,11 @@ router.post('/', (req, res) => {
 	.catch(err => res.status(400).json({ errors: parseErrors(err.errors) }));
 });
 
+router.get('/search', (req, res) => {
+	Company.find({ "name": { $regex: req.query.q }
+	})
+		.then(companies => res.json ({ companies })
+		)
+});
+
 export default router;
