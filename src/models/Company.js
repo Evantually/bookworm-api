@@ -6,10 +6,10 @@ const schema = new mongoose.Schema({
 	assignedAgent: { type: String, required: true },
 	leadContact: { 
 		name: { type: String, required: true },
-		title: { type: String, required: true },
+		title: { type: String },
 		email: { type: String, required: true },
 		phone: { type: String, required: true },
-		notes: { type: Array, required: true }
+		notes: { type: Array }
 	},
 	billingAddress: {
 		street: { type: String, required: true },
@@ -25,7 +25,8 @@ const schema = new mongoose.Schema({
 	},
 	employees: { type: Array },
 	tasks: { type: Array },
-	notes: { type: Array }
+	notes: { type: Array },
+	userId: { type: mongoose.Schema.Types.ObjectId, required: true }
 },
 	{ timestamps: true }
 );

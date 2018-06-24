@@ -7,7 +7,7 @@ const router = express.Router();
 router.use(authenticate);
 
 router.get('/', (req, res) => {
-	Company.find({  }).then(companies => res.json({ companies }));
+	Company.find({}).then(companies => res.json({ companies }));
 });
 
 router.post('/', (req, res) => {
